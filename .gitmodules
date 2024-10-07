@@ -7,3 +7,6 @@
 [submodule "lib/cu-osc-common"]
 	path = lib/cu-osc-common
 	url = https://github.com/Laguna-Games/cu-osc-common
+[submodule "lib/cu-osc-common-tokens"]
+	path = lib/cu-osc-common-tokens
+	url = https://github.com/Laguna-Games/cu-osc-common-tokens
