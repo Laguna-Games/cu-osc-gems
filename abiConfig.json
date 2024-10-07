@@ -1,0 +1,84 @@
+{
+	"projectName": "UnicornGems",
+	"buildDirectory": "build",
+	"abiOutputDirectory": "abi",
+	"abiConfigurations": [
+		{
+			"configuration": "public",
+			"sortedJSON": true,
+			"searchRecursively": true,
+			"contractsToInclude": [],
+			"contractsToIgnore": [
+				"DiamondCutFacet",
+				"DiamondLoupeFacet",
+				"ExtendedDiamondCutFacet",
+				"DebugFacet",
+				"IDiamondCut",
+				"IDiamondLoupe",
+				"IERC173",
+				"MockTerminus",
+				"Base64",
+				"SupportsInterfaceInitializerFacet",
+				"IGem",
+				"OwnershipFacet"
+			],
+			"eventsToIgnore": [
+				"DebugActivity",
+				"Example",
+				"AdminSetUnicornAddress",
+				"DiamondCut"
+			],
+			"functionsToIgnore": [
+				"adminTerminusInfo",
+				"changeAdminTerminusInfo",
+				"init",
+				"diamondCut",
+				"adminSetUnicornAddress",
+				"adminTerminusInfo",
+				"changeAdminTerminusInfo",
+				"mintMessageHash",
+				"transferToUnicornContract",
+				"setPermissionProvider"
+			],
+			"selectorsToIgnore": [],
+			"eventsPrecedence": {
+				"OwnershipTransferred": "LibDiamond",
+				"DiamondCut": "LibDiamond"
+			}
+		},
+		{
+			"configuration": "lgInternal",
+			"sortedJSON": true,
+			"searchRecursively": true,
+			"contractsToInclude": [],
+			"contractsToIgnore": [
+				"IDiamondCut",
+				"IDiamondLoupe",
+				"IERC173",
+				"MockTerminus",
+				"Base64"
+			],
+			"eventsToIgnore": [
+				"Example"
+			],
+			"functionsToIgnore": [
+				"debugBatchRegisterAdmin",
+				"debugBatchRegisterDebugger",
+				"debugConfigureForLocalhost",
+				"debugConfigureForMumbai",
+				"debugGetRole",
+				"debugRegisterAdmin",
+				"debugRegisterDebugger",
+				"debugTestMethod",
+				"disableDebugging",
+				"enableDebugging",
+				"initializeDebugLibrary"
+			],
+			"selectorsToIgnore": [],
+			"eventsPrecedence": {
+				"OwnershipTransferred": "LibDiamond",
+				"DiamondCut": "LibDiamond"
+			}
+		}
+	]
+}
