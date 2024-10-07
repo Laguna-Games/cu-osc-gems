@@ -10,3 +10,6 @@
 [submodule "lib/cu-osc-common-tokens"]
 	path = lib/cu-osc-common-tokens
 	url = https://github.com/Laguna-Games/cu-osc-common-tokens
+[submodule "lib/web3"]
+	path = lib/web3
+	url = https://github.com/moonstream-to/web3
