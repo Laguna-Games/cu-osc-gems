@@ -16,3 +16,6 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "lib/@solidstate"]
+	path = lib/@solidstate
+	url = https://github.com/solidstate-network/solidstate-solidity
